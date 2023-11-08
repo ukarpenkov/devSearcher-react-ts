@@ -23,7 +23,7 @@ export const InfoItem = ({ icon, isLink, text }: InfoItemProps) => {
             rel="noreferrer"
             className={styles.link}
           >
-            currentText
+            {currentText}
           </a>
         ) : (
           currentText
